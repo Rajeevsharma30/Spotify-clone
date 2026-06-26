@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+</head>
+
+<body>
+    <!-- nav -->
+    <nav>
+        <div class="left-half">
+            <div class="logo"><i class="fa-brands fa-spotify"></i></div>
+            <div class="home-icon"><i class="fa-solid fa-house"></i></div>
+            <div class="search-bar">
+                <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <input type="text" class="input-box" placeholder="What do you want to play? ">
+                <div class="browse"><i class="fa-solid fa-folder-open"></i></div>
+            </div>
+        </div>
+        <div class="right-half">
+            <div class="part1">
+                <p class="nav-text">Premium</p>
+                <p class="nav-text">Support</p>
+                <p class="nav-text">Download</p>
+            </div>
+            <div class="part2">
+                <div class="nav-text"><i class="fa-regular fa-circle-down"></i> Install App</div>
+                <div class="nav-text">Sign Up</div>
+                <button class="login-btn">Log in</button>
+            </div>
+        </div>
+    </nav>
+    <!-- main left part -->
+    <div class="main">
+        <div class="left-part">
+            <div class="library">
+                <p>Your Library</p>
+                <div>+</div>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <h4>Create your first playlist</h4>
+                    <p>It's easy we'll help you</p>
+                    <button>Create Playlist</button>
+                </div>
+                <div class="box">
+                    <div class="box">
+                        <h4>Let's find some podcast to follow</h4>
+                        <p>we'll keep you updated on new episodes</p>
+                        <button>Browse podcast</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Right part -->
+        <div class="main-right-part">
+            <div class="music-section">
+                <h2>Recommended Songs</h2>
+                <div class="songs">
+                    <div class="music-card">
+                        <img src="./Images/2.jpg" alt="">
+                        <div class="music-play-btn"><i id="1" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile"></div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="./Images/3.jpg" alt="">
+                        <div class="music-play-btn"><i id="2" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="./Images/4.jpg" alt="">
+                        <div class="music-play-btn"><i id="3" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="./Images/1.jpg" alt="">
+                        <div class="music-play-btn"><i id="4" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="./Images/2.jpg" alt="">
+                        <div class="music-play-btn"><i id="5" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="./Images/4.jpg" alt="">
+                        <div class="music-play-btn"><i id="6" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                </div>
+            </div>
+            <div class="music-section">
+                <h2>Popular Songs</h2>
+                <div class="songs">
+                    <div class="music-card">
+                        <img src="./Images/4.jpg" alt="">
+                        <div class="music-play-btn"><i id="7" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="./Images/3.jpg" alt="">
+                        <div class="music-play-btn"><i id="8" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="./Images/2.jpg" alt="">
+                        <div class="music-play-btn"><i id="9" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="./Images/1.jpg" alt="">
+                        <div class="music-play-btn"><i id="10" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="./Images/3.jpg" alt="">
+                        <div class="music-play-btn"><i id="11" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="./Images/4.jpg" alt="">
+                        <div class="music-play-btn"><i id="12" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                </div>
+            </div>
+            <div class="music-section">
+                <h2>Trending</h2>
+                <div class="songs">
+                    <div class="music-card">
+                        <img src="./Images/4.jpg" alt="">
+                        <div class="music-play-btn"><i id="13" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="./Images/2.jpg" alt="">
+                        <div class="music-play-btn"><i id="14" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="./Images/3.jpg" alt="">
+                        <div class="music-play-btn"><i id="15" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="./Images/1.jpg" alt="">
+                        <div class="music-play-btn"><i id="16" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="./Images/1.jpg" alt="">
+                        <div class="music-play-btn"><i id="17" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="./Images/4.jpg" alt="">
+                        <div class="music-play-btn"><i id="18" class="play-music fa-solid fa-circle-play"></i></div>
+                        <div class="image-titile">Inaam</div>
+                        <div class="image-disc">Jasleen Royal, Badshah</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Player -->
+    <div class="player-bar">
+        <div class="now-bar">
+            <img src="/Images/2.jpg" alt="">
+            <div>
+                <div class="img-title-info">Tittle</div>
+                <div class="img-des-info">Best song</div>
+            </div>
+        </div>
+        <div class="music-controler">
+            <div class="plyer">
+                <div><i id="shuffle" class="player-btns fa-solid fa-shuffle"></i></div>
+                <div><i id="backward" class="player-btns fa-solid fa-backward-step"></i></div>
+                <div><i id="play" class="player-btns fa-solid fa-circle-play"></i></div>
+            <div><i id="forward" class="player-btns fa-solid fa-forward"></i></div>
+            <div><i id="repeat" class="player-btns fa-solid fa-repeat"></i></div>
+            </div>
+           
+            <div>
+                <input type="range" id="progress-bar" value="0">
+            </div>
+        </div>
+        <div></div>
+    </div>
+
+    <script src="scipt.js"></script>
+</body>
+
+</html>
